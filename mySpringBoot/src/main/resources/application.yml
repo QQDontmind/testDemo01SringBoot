@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    view:
+      prefix:  /WEB-INF/view
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8
+    username: root
+    password: 12378900
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update #新增数据库连接参数 create可能造成数据丢失
+    show-sql: false
+
+  mybatis:
+    typeAliasesPackage: com.xdd.entity
+    mapperLocations: classpath:mapper/*.xml
