@@ -1,1 +1,15 @@
-java formdata接收格式  LinkedMultiValueMap
+﻿java formdata接收格式  LinkedMultiValueMap
+Calendar类每周第一天为周日
+
+优先级测试（FixMethodOrder Test）
+JUnit是通过@FixMethodOrder注解(annotation)来控制测试方法的执行顺序的。
+@FixMethodOrder注解的参数是org.junit.runners.MethodSorters对象,
+在枚举类org.junit.runners.MethodSorters中定义了如下三种顺序类型：
+MethodSorters.JVM (按照JVM得到的方法顺序，也就是代码中定义的方法顺序)
+MethodSorters.DEFAULT(默认的顺序)
+MethodSorters.NAME_ASCENDING (按方法名字母顺序执行)
+
+
+token bucket算法 请求流量控制
+贝叶斯分类算法 用概率论进行统计分类
+TreeMap可以自动排序 
